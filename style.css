@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background: #f0f2f5;
+    padding: 15px;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    background: white;
+    padding: 28px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 22px;
+    font-size: 1.9rem;
+    border-left: 5px solid #3498db;
+    padding-left: 15px;
+}
+
+.top-bar {
+    margin-bottom: 22px;
+    text-align: right;
+}
+
+.btn {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.92rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.25s;
+}
+
+.btn-primary {
+    background: #3498db;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #2980b9;
+}
+
+.btn-edit {
+    background: #27ae60;
+    color: white;
+    padding: 6px 16px;
+    font-size: 0.82rem;
+}
+
+.btn-edit:hover {
+    background: #229954;
+}
+
+.btn-delete {
+    background: #e74c3c;
+    color: white;
+    padding: 6px 16px;
+    font-size: 0.82rem;
+}
+
+.btn-delete:hover {
+    background: #c0392b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    border: 1px solid #ddd;
+}
+
+table thead {
+    background: #34495e;
+}
+
+table th {
+    padding: 13px;
+    text-align: left;
+    font-weight: 600;
+    color: #000;
+    font-size: 0.88rem;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ecf0f1;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background: #ecf0f1;
+}
+
+.actions {
+    display: flex;
+    gap: 7px;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 4px 11px;
+    border-radius: 3px;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+.status-pending {
+    background: #f39c12;
+    color: white;
+}
+
+.status-in-progress {
+    background: #3498db;
+    color: white;
+}
+
+.status-completed {
+    background: #27ae60;
+    color: white;
+}
+
+.form-container {
+    max-width: 520px;
+    margin: 0 auto;
+    background: #fafafa;
+    padding: 25px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+}
+
+.form-group {
+    margin-bottom: 17px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #34495e;
+    font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 0.92rem;
+    font-family: inherit;
+}
+
+.form-group textarea {
+    min-height: 95px;
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.error {
+    background: #e74c3c;
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 17px;
+}
+
+.success {
+    background: #27ae60;
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 17px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-left: 12px;
+    color: #7f8c8d;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    color: #34495e;
+    text-decoration: underline;
+}
+
+.no-data {
+    text-align: center;
+    padding: 42px;
+    color: #95a5a6;
+    font-size: 1.05rem;
+}
+
+.no-data a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.no-data a:hover {
+    text-decoration: underline;
+}
